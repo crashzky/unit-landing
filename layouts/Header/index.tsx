@@ -12,7 +12,7 @@ const Header: React.FC<Props> = ({ className = '', ...props }) =>{
 	return (
 		<header
 			className={className
-				+ ' lg:sticky top-0 lg:px-28 py-11 flex flex-col lg:flex-row items-center justify-between bg-white'}
+				+ ' lg:sticky top-0 z-20 lg:px-28 py-11 flex flex-col lg:flex-row items-center justify-between bg-white'}
 			{...props}
 		>
 			<Link href='/'>
